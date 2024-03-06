@@ -40,7 +40,7 @@ For example, to generate five valid tokens with an automatically generated Clien
 $ wrangler pubsub broker issue example-broker --number=5 --expiration=48h
 ```
 
-You should receive a scucess response that resembles the example below, which is a map of Client IDs and their associated tokens.
+You should receive a success response that resembles the example below, which is a map of Client IDs and their associated tokens.
 
 ```json
 {
